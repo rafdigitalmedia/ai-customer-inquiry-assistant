@@ -1,4 +1,4 @@
-#  AI Customer Inquiry Assistant
+# 🤖 AI Customer Inquiry Assistant
 
 [![n8n](https://img.shields.io/badge/n8n-Automation-FF6D5A?style=flat-square)](https://n8n.io)
 [![OpenAI](https://img.shields.io/badge/OpenAI_GPT-4285F4?style=flat-square)](https://openai.com)
@@ -13,7 +13,7 @@
 
 ---
 
-##  Features
+## ✨ Features
 
 - 🤖 **AI-Powered Intent Classification** — Automatically categorizes incoming emails as TECHNICAL, CONTACT, PRICING, or GENERAL.
 
@@ -23,13 +23,13 @@
 
 - 🧠 **Intelligent Routing** — Conditional logic (IF Node) seamlessly routes emails to the appropriate handler.
 
--  **Real-time Processing** — Under 60 seconds from email receipt to response or alert.
+- ⚡ **Real-time Processing** — Under 60 seconds from email receipt to response or alert.
 
 - 📝 **Clean Formatting** — Strict prompt rules ensure no markdown artifacts or placeholders leak into customer emails.
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -40,7 +40,7 @@
 
 ---
 
-## 📊 Business Impact
+##  Business Impact
 
 | Metric | Before | After |
 |--------|--------|-------|
@@ -63,7 +63,6 @@ TRUE FALSE
 Human Alert AI Generate Response
 (Email) ↓
 Auto Reply (Email)
-
 
 ---
 
@@ -92,9 +91,6 @@ Auto Reply (Email)
 
 ### Auto-Reply Received in Inbox
 ![Auto Reply](auto-reply-received.png)
-
-### Execution Success
-![Success](execution-success.png)
 
 ---
 

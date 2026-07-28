@@ -26,3 +26,31 @@
 | **OpenAI API** | Email intent classification and response generation |
 | **Gmail API** | Email trigger monitoring and automated sending |
 | **n8n Expressions** | Dynamic data mapping and
+
+📸 Screenshots
+Full Workflow
+Gmail Trigger Configuration
+AI Intent Classification
+Smart Routing Logic
+AI Response Generation
+Auto-Reply Configuration
+Human Alert Setup
+Auto-Reply Received in Inbox
+Execution Success
+📦 Installation
+Import ai-customer-inquiry-assistant.json to your n8n instance.
+Configure Gmail credentials (for both the trigger and sending nodes).
+Set up your OpenAI API key in the n8n credentials.
+Customize the classification prompt in the "AI - Classify Intent" node based on your specific business categories.
+Update the "To" email address in the "Email - Human Alert" node to your actual support team's email.
+Activate the workflow and test by sending a sample email to the monitored Gmail account!
+💼 Use Cases
+🎫 Customer Support — Auto-respond to common FAQs and general inquiries.
+💼 Sales Teams — Automatically route pricing and upgrade questions to sales.
+🔧 Technical Support — Instantly escalate complex login or bug issues to human agents.
+📞 Contact Requests — Forward partnership or collaboration emails to the right department.
+🌐 Agencies & Freelancers — Maintain a professional, 24/7 responsive image for clients.
+📝 License
+MIT License — free to use and modify for personal or commercial projects.
+Built with ❤️ using n8n and OpenAI
+For inquiries or custom automation projects, feel free to reach out!

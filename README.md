@@ -17,7 +17,7 @@
 
 - 🤖 **AI-Powered Intent Classification** — Automatically categorizes incoming emails as TECHNICAL, CONTACT, PRICING, or GENERAL.
 
--  **Smart Auto-Reply** — AI generates contextual, professional, and plain-text responses for general inquiries instantly.
+- 💬 **Smart Auto-Reply** — AI generates contextual, professional, and plain-text responses for general inquiries instantly.
 
 - 🔔 **Human Escalation** — Instant email alerts to the support team for TECHNICAL and CONTACT issues requiring human intervention.
 
@@ -29,7 +29,7 @@
 
 ---
 
-## ️ Tech Stack
+## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -40,7 +40,7 @@
 
 ---
 
-##  Business Impact
+## 📈 Business Impact
 
 | Metric | Before | After |
 |--------|--------|-------|
@@ -52,51 +52,50 @@
 ---
 
 ## 🚀 How It Works
+
+```text
 Gmail Trigger (New Email Received)
 ↓
 AI Classify Intent (TECHNICAL / CONTACT / PRICING / GENERAL)
 ↓
 IF Router (Is it TECHNICAL or CONTACT?)
-↓ ↓
-TRUE FALSE
-↓ ↓
-Human Alert AI Generate Response
-(Email) ↓
-Auto Reply (Email)
+├─ TRUE  → Human Alert (Email)
+└─ FALSE → AI Generate Response → Auto Reply (Email)
+```
 
 ---
 
 ## 📸 Screenshots
 
 ### Full Workflow
-![Full Workflow](full-workflow.png)
+![Full Workflow](assets/full-workflow.png)
 
 ### Gmail Trigger Configuration
-![Gmail Trigger](gmail-trigger-config.png)
+![Gmail Trigger](assets/gmail-trigger-config.png)
 
 ### AI Intent Classification
-![AI Classification](ai-classify-intent.png)
+![AI Classification](assets/ai-classify-intent.png)
 
 ### Smart Routing Logic
-![Router](router-technical-contact.png)
+![Router](assets/router-technical-contact.png)
 
 ### AI Response Generation
-![AI Response](ai-generate-response.png)
+![AI Response](assets/ai-generate-response.png)
 
 ### Auto-Reply Configuration
-![Auto Reply Config](email-auto-reply-config.png)
+![Auto Reply Config](assets/email-auto-reply-config.png)
 
 ### Human Alert Setup
-![Human Alert](email-human-alert.png)
+![Human Alert](assets/email-human-alert.png)
 
 ### Auto-Reply Received in Inbox
-![Auto Reply](auto-reply-received.png)
+![Auto Reply](assets/auto-reply-received.png)
 
 ---
 
 ## 📦 Installation
 
-1. **Import Workflow** — Import `ai-customer-inquiry-assistant.json` to your n8n instance.
+1. **Import Workflow** — Import `AI Customer Inquiry Assistant.json` to your n8n instance.
 
 2. **Configure Gmail** — Set up Gmail credentials for both the trigger and sending nodes.
 
@@ -124,7 +123,7 @@ Auto Reply (Email)
 
 ---
 
-##  License
+## 📝 License
 
 MIT License — free to use and modify for personal or commercial projects.
 
